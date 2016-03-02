@@ -3,8 +3,8 @@ Updatable staff list made with Knockout, AJAX and MySQL.
 
 The MySQL database is set up with:
 
-CREATE DATABASE if not exists staff;
-use staff;
+CREATE DATABASE IF NOT EXISTS staff;
+USE staff;
 CREATE TABLE people
 (
 id smallint unsigned NOT NULL auto_increment,
