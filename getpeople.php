@@ -1,6 +1,6 @@
 <?php
 $database = "staff";
-$db_handle = mysql_connect("127.0.0.1", "root", "_g00dg3_l0rD");
+$db_handle = mysql_connect("127.0.0.1", "root", "password");
 $db_found = mysql_select_db($database, $db_handle);
 if ($db_found) {
   $result = mysql_query("SELECT * FROM people");
